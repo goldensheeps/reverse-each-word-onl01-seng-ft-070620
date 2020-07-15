@@ -13,3 +13,7 @@ def reverse_each_word(words)
   end
   return array.join(" ")
 end
+
+def reverse_each_word(words)
+  return words.split(' ').collect { |w| w.reverse}.join(' ')
+end
