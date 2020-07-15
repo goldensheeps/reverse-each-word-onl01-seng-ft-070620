@@ -14,6 +14,6 @@ def reverse_each_word(words)
   return array.join(" ")
 end
 
-def reverse_each_word(words)
-  return words.split(' ').collect { |w| w.reverse }.join(' ')
-end
+# def reverse_each_word(words)
+#   return words.split(' ').collect { |w| w.reverse }.join(' ')
+# end
