@@ -15,5 +15,5 @@ end
 # end
 
 def reverse_each_word(words)
-  return words.split(' ').collect { |w| w.reverse}.join(' ')
+  return words.split(' ').collect { |w| w.reverse }.join(' ')
 end
